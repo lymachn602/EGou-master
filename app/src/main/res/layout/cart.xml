@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+   <TextView
+       android:id="@+id/title"
+       android:text="购物车"
+       android:textColor="@color/white"
+       android:background="@color/mainColor"
+       android:padding="@dimen/litter_space"
+       android:textSize="@dimen/title_size"
+       android:gravity="center"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content" />
+    <ListView
+        android:id="@+id/cartItemView"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </ListView>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="合计："
+            android:textSize="13pt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/totalMoney"
+            android:text="￥0.0"
+            android:textSize="13pt"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/payment"
+            android:padding="@dimen/normal_space"
+            android:text="去结算"
+            android:textSize="15pt"
+            android:textColor="@color/white"
+            android:background="@color/red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

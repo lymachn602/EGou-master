@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\layout-v21\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\release\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    }
+]

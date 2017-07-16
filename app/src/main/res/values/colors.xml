@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="mainColor">#76C2AF</color>
+    <color name="white">#ffffff</color>
+    <color name="cityLetterBackground">#607691</color>
+    <color name="green">#6fa8dc</color>
+    <color name="gray">#DFDFDF</color>
+    <color name="login_color">#76C2AF</color>
+    <color name="register_color">#C75C5C</color>
+    <color name="orange">#F5CF87</color>
+    <color name="red">#f4051a</color>
+    <color name="color_text_select">#FF7878</color>
+    <color name="color_text_nomal">#2B2B2B</color>
+    <color name="code_color">#123456</color>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="common_white">#FFFFFF</color>
+    <color name="common_black">#000000</color>
+</resources>

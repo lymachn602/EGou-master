@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Acitivty.indexActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/mypager"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+    </android.support.v4.view.ViewPager>
+    <RadioGroup
+        android:id="@+id/group"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/mainBt"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:drawableTop="@drawable/main_select"
+            android:textSize="7pt"
+            android:button="@null"
+            android:layout_weight="1"
+            android:text="首页"
+            android:textColor="@color/color_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/cartBt"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="7pt"
+            android:button="@null"
+            android:layout_weight="1"
+            android:drawableTop="@drawable/cart_press"
+            android:text="购物车"
+            android:textColor="@color/color_select"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+        </RadioButton>
+        <RadioButton
+            android:id="@+id/my"
+            android:drawableTop="@drawable/my_press"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="7pt"
+            android:button="@null"
+            android:layout_weight="1"
+            android:textColor="@color/color_select"
+            android:text="我的"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RadioGroup>
+    <com.dwg.egou.widget.Indicator
+        android:id="@+id/indicator"
+        android:layout_width="match_parent"
+        android:layout_height="20px" />
+</LinearLayout>

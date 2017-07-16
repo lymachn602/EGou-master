@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="我的"
+            android:padding="@dimen/litter_space"
+            android:textColor="@color/white"
+            android:background="@color/mainColor"
+            android:textSize="@dimen/title_size"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <RelativeLayout
+            android:id="@+id/login"
+            android:background="@color/white"
+            android:layout_marginTop="@dimen/litter_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:paddingLeft="@dimen/litter_space"
+                android:id="@+id/headImage"
+                android:src="@drawable/user_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/replaceUsername"
+                android:paddingRight="@dimen/litter_space"
+                android:text="点击登录"
+                android:layout_marginLeft="20dp"
+                android:textSize="23dp"
+                android:drawableRight="@drawable/arrow_right"
+                android:layout_toRightOf="@+id/headImage"
+                android:layout_centerVertical="true"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </RelativeLayout>
+        <TextView
+            android:id="@+id/my_order"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/litter_space"
+            android:paddingLeft="@dimen/litter_space"
+            android:paddingRight="@dimen/litter_space"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/my_order"
+            android:drawableRight="@drawable/arrow_right"
+            android:text="我的订单"
+            android:textSize="27dp"
+            android:drawablePadding="@dimen/litter_space"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</ScrollView>

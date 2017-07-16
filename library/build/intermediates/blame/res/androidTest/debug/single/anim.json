@@ -1,0 +1,58 @@
+[
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\bundles\\debug\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioProjects\\EGou-master\\library\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\linyuming\\.android\\build-cache\\83c115d064ab6e902bfb972cd2476fd5eb5adaa5\\output\\res\\anim\\abc_popup_exit.xml"
+    }
+]

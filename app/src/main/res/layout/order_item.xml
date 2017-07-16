@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/white"
+        android:padding="@dimen/litter_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+    <RelativeLayout
+        android:padding="@dimen/litter_space"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:background="@color/white"
+            android:id="@+id/order_item_image"
+            android:src="@drawable/guide1"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+        <TextView
+            android:layout_toRightOf="@+id/order_item_image"
+            android:id="@+id/order_item_info"
+            android:text="商品信息"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/orderItem_addTime"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/order_item_image"
+            android:text="2010-09-01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/order_item_product_price"
+            android:text="￥14.00"
+            android:layout_alignParentRight="true"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/text"
+            android:text="件商品 实付款："
+            android:layout_toLeftOf="@+id/order_item_product_price"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="1"
+            android:id="@+id/order_item_product_num"
+            android:textSize="@dimen/content_size"
+            android:layout_toLeftOf="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="共"
+            android:textSize="@dimen/content_size"
+            android:layout_toLeftOf="@+id/order_item_product_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</LinearLayout>

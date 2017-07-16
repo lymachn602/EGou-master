@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dwg.egou.widget.SlideFinishLayout
+    android:id="@+id/root_layout"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/mainColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/backToCateGory"
+            android:drawablePadding="@dimen/litter_space"
+            android:padding="@dimen/litter_space"
+            android:text="分类列表"
+            android:textSize="@dimen/title_size"
+            android:drawableLeft="@drawable/arrow_back"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+    <ListView
+        android:id="@+id/category_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>
+</com.dwg.egou.widget.SlideFinishLayout>

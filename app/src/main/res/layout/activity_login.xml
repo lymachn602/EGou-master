@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dwg.egou.widget.SlideFinishLayout
+    android:id="@+id/root_layout"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content">
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:background="@color/white"
+        android:id="@+id/login"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:background="@color/mainColor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+
+                android:id="@+id/back"
+                android:clickable="true"
+                android:padding="@dimen/litter_space"
+                android:src="@drawable/arrow_back"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+            <TextView
+                android:text="登录"
+
+                android:textSize="@dimen/title_size"
+                android:padding="@dimen/litter_space"
+                android:layout_weight="1"
+                android:layout_gravity="center_vertical"
+                android:layout_width="0dp"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/registerUser"
+                android:clickable="true"
+                android:text="注册"
+                android:textSize="@dimen/title_size"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:textColor="@color/register_color"
+                android:padding="@dimen/litter_space"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+        <ImageView
+            android:background="@color/login_color"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="20dp"
+            android:layout_height="1dp" />
+        <EditText
+            android:id="@+id/userName"
+            android:hint="用户名/邮箱/手机号"
+            android:drawablePadding="@dimen/litter_space"
+            android:drawableLeft="@drawable/user_login"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/userPass"
+            android:hint="密码"
+            android:drawablePadding="@dimen/litter_space"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/login_password"/>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_weight="2"
+                android:id="@+id/check_code_text"
+                android:hint="验证码"
+                android:singleLine="true"
+                android:inputType="text"
+                android:drawableLeft="@drawable/check_code"
+                android:drawablePadding="@dimen/litter_space"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:background="@color/login_color"
+                android:layout_width="1dp"
+                android:layout_height="match_parent">
+
+            </TextView>
+            <Button
+
+                android:id="@+id/check_code_button"
+                android:background="@null"
+                android:gravity="center"
+                android:text="1234"
+                android:textColor="@color/code_color"
+                android:textSize="@dimen/content_size"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/loginButton"
+        android:text="登录"
+        android:textSize="@dimen/title_size"
+        android:textColor="@color/green"
+        android:layout_margin="@dimen/litter_space"
+        android:background="@color/orange"
+        android:layout_below="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/modifyPwdBt"
+        android:background="@null"
+        android:text="忘记密码"
+        android:layout_below="@+id/loginButton"
+        android:layout_alignRight="@+id/loginButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:visibility="invisible"
+            android:id="@+id/qqLogin"
+            android:drawableLeft="@drawable/qq"
+            android:text="QQ登录"
+            android:drawablePadding="@dimen/litter_space"
+            android:gravity="center_vertical"
+            android:layout_alignParentLeft="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:visibility="invisible"
+            android:drawableLeft="@drawable/wechat"
+            android:drawablePadding="@dimen/litter_space"
+            android:text="微信登录"
+            android:gravity="center_vertical"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+
+</RelativeLayout>
+</com.dwg.egou.widget.SlideFinishLayout>

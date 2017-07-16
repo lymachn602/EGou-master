@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dwg.egou.widget.SlideFinishLayout
+    android:id="@+id/root_layout"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent">
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:background="@color/mainColor"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/backToMain"
+            android:clickable="true"
+            android:layout_gravity="center"
+            android:padding="@dimen/litter_space"
+            android:background="@drawable/arrow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:text="全部分类"
+            android:textSize="@dimen/title_size"
+            android:padding="@dimen/litter_space"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/sort"
+        android:id="@+id/jiayong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="家用电器"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        style="@style/sort"
+        android:id="@+id/shouji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="手机、数码"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/diannao"
+        style="@style/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="电脑、办公"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/jiaju"
+        style="@style/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="家具、家具"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/gehu"
+        style="@style/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="个护化妆、清洁用品"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/shipin"
+        style="@style/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_7"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="食品、酒类、特产"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/tushu"
+        style="@style/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_8"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="图书、音像、电子书"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/xiexue"
+        style="@style/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_9"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="鞋靴、箱包、钟表、奢侈品"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/qiche"
+        style="@style/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:src="@drawable/sort_10"
+            android:layout_width="50dp"
+            android:layout_height="50dp" />
+        <TextView
+            android:layout_weight="1"
+            android:drawableRight="@drawable/arrow_right"
+            android:padding="@dimen/litter_space"
+            android:text="汽车、汽车用品"
+            android:gravity="left"
+            android:textSize="@dimen/content_size"
+            android:layout_width="0dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
+    </com.dwg.egou.widget.SlideFinishLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dwg.egou.widget.SlideFinishLayout
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:padding="@dimen/litter_space"
+        android:layout_marginTop="1dp"
+        android:background="@color/mainColor"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/modifyBackToMyBt"
+            android:clickable="true"
+            android:src="@drawable/arrow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/modify_user_info_title"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="修改"
+            android:textSize="@dimen/title_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/modify_user_info_config"
+            android:clickable="true"
+            android:src="@drawable/check"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+        </ImageView>
+    </LinearLayout>
+    <EditText
+        android:id="@+id/modify_user_info_content"
+        android:layout_marginTop="1dp"
+        android:padding="@dimen/litter_space"
+        android:text="xiugai"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="4-20字符，可由中英文、数字、“_”、“-”组成"
+        android:textSize="@dimen/hintSize"
+        android:padding="@dimen/litter_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</com.dwg.egou.widget.SlideFinishLayout>

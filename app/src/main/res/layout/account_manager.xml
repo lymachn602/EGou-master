@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<com.dwg.egou.widget.SlideFinishLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="1dp"
+        android:background="@color/mainColor"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/managerBackToMyBt"
+            android:clickable="true"
+            android:padding="@dimen/litter_space"
+            android:src="@drawable/arrow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="账户管理"
+            android:textSize="@dimen/title_size"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <RelativeLayout
+        android:clickable="true"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="@dimen/litter_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="头像"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:src="@drawable/user_login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:clickable="true"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="@dimen/litter_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="用户名"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/modify_user_info_username"
+            android:text="username"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/modifyNickNameBt"
+        android:clickable="true"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="@dimen/litter_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="昵称"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/modify_user_info_nickname"
+            android:text="nickname"
+            android:layout_centerVertical="true"
+            android:drawablePadding="@dimen/litter_space"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/modifyEmailBt"
+        android:clickable="true"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="@dimen/litter_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="邮箱"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/modify_user_info_email"
+            android:text="email"
+            android:layout_centerVertical="true"
+            android:drawablePadding="@dimen/litter_space"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:clickable="true"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="@dimen/litter_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="注册时间"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/modify_user_info_register_time"
+            android:text="RegisterTime"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/modifyPassWordBt"
+        android:clickable="true"
+        android:layout_marginTop="1dp"
+        android:background="@color/white"
+        android:padding="@dimen/litter_space"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="账户安全"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/content_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:text="可修改密码"
+            android:layout_centerVertical="true"
+            android:drawablePadding="@dimen/litter_space"
+            android:layout_alignParentRight="true"
+            android:drawableRight="@drawable/arrow_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </RelativeLayout>
+    <Button
+        android:id="@+id/LogOut"
+        android:text="退出登录"
+        android:textSize="@dimen/content_size"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/litter_space"
+        android:background="@color/red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</com.dwg.egou.widget.SlideFinishLayout>

@@ -1,0 +1,2 @@
+include ':app', ':refresh'
+project(':refresh').projectDir = new File('library')

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dwg.egou.widget.SlideFinishLayout
+    android:id="@+id/root_layout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:background="@color/mainColor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/backToLogin"
+            android:clickable="true"
+            android:padding="@dimen/litter_space"
+            android:src="@drawable/arrow_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+        <TextView
+            android:text="注册"
+            android:textSize="@dimen/title_size"
+            android:padding="@dimen/litter_space"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:layout_width="0dp"
+            android:textColor="@color/white"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:id="@+id/registerName"
+            android:layout_gravity="center"
+            android:hint="用户名/邮箱/手机号"
+            android:drawablePadding="@dimen/litter_space"
+            android:drawableLeft="@drawable/user_login"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+        <EditText
+
+            android:id="@+id/registerEmail"
+            android:hint="邮箱"
+            android:drawablePadding="@dimen/litter_space"
+            android:drawableLeft="@drawable/mail"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/registerNickname"
+            android:hint="昵称"
+            android:drawablePadding="@dimen/litter_space"
+            android:drawableLeft="@drawable/nickname"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:inputType="text"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/registerPassword"
+            android:hint="密码"
+            android:drawablePadding="@dimen/litter_space"
+            android:drawableLeft="@drawable/login_password"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:id="@+id/registerPasswordConfirm"
+            android:hint="确认密码"
+            android:drawablePadding="@dimen/litter_space"
+            android:drawableLeft="@drawable/password_confirm"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:inputType="textPassword"
+            android:layout_height="wrap_content" />
+        <Button
+            android:textColor="@color/white"
+            android:id="@+id/registerBt"
+            android:text="注册"
+            android:background="@color/red"
+            android:layout_margin="@dimen/litter_space"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</com.dwg.egou.widget.SlideFinishLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dwg.egou.widget.SlideFinishLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/detailstitle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/mainColor"
+                    android:gravity="center"
+                    android:text="商品详情"
+                    android:textSize="@dimen/title_size" />
+
+                <ImageView
+                    android:id="@+id/productDetailsImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_below="@+id/detailstitle"
+                    android:src="@drawable/guide2" />
+
+                <TextView
+                    android:id="@+id/productDetailsName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/productDetailsImage"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="20dp"
+                    android:text="商品名称"
+                    android:textSize="13pt" />
+
+                <TextView
+                    android:id="@+id/productDetailsNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/productDetailsName"
+                    android:layout_alignLeft="@+id/productDetailsName"
+                    android:text="(库存量：1)" />
+
+                <TextView
+                    android:id="@+id/productDetailsPrice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/productName"
+                    android:layout_below="@+id/productDetailsName"
+                    android:layout_marginTop="20dp"
+                    android:text="￥15"
+                    android:textColor="@color/red"
+                    android:textSize="15pt" />
+
+                <LinearLayout
+                    android:id="@+id/line"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/productDetailsPrice"
+                    android:layout_marginTop="20dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/gray" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="商品信息">
+
+                    </TextView>
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="2dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:background="@color/gray" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/product_description"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/line"
+                    android:gravity="center"
+                    android:text="商品描述信息" />
+
+                <Button
+                    android:id="@+id/addProductForCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/productDetailsPrice"
+                    android:layout_alignParentRight="true"
+                    android:background="@color/red"
+                    android:text="加入购物车"
+                    android:textColor="@color/white" />
+            </RelativeLayout>
+        </ScrollView>
+
+</com.dwg.egou.widget.SlideFinishLayout>
